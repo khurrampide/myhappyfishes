@@ -25,13 +25,13 @@ const Post = ({ post }: Props) => {
       />
       {/* Article */}
       <div className="max-w-5xl mx-auto ">
-        <article className="w-full mx-auto p-5 bg-secondaryColor/10">
+        <article className="w-full mx-auto p-5 ">
           <h1 className="font-titleFont font-medium text-[32px] text-primary border-b-[1px] border-b-cyan-800 mt-10 mb-3">{post.title}</h1>
           <h2 className="font-bodyFont">{post.description}</h2>
-          <div className="flex items-center gap-2">
+          {/* <div className="flex items-center gap-2">
             <Image className="rounded-full object-cover w-12 h-12" width={48} height={48} src={urlFor(post.mainImage).url()! } alt="Profile Image" />
             <p className="font-bodyFont text-base">Blog Post by <span className="font-bold text-secondaryColor">{post.author.name} </span> Published at {new Date(post.publishedAt).toLocaleDateString()}</p>
-          </div>
+          </div> */}
           <div className="mt-10">
             <PortableText
                 dataset={process.env.NEXT_PUBLIC_SANITY_DATASET || "production"}
@@ -48,7 +48,7 @@ const Post = ({ post }: Props) => {
                         <h1 className="text-2xl font-bold my-5 font-titleFont" {...props} />
                     ),
                     link:({href, children}:any) => (
-                        <a href={href} className="text-cyan-500 hover:underline">{children}</a>
+                        <a href={href} className="text-blue-700 hover:underline">{children}</a>
                     )
                 }}
             />

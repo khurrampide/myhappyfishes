@@ -27,10 +27,10 @@ export default function Home({ posts }: Props) {
         <Header />
         {/* ============ Header End here ============== */}
         {/* ============ Banner Start here ============ */}
-        <Banner />
+        {/*<Banner />*/}
         {/* ============ Banner End here ============== */}
         <div className="max-w-7xl mx-auto h-60 relative">
-          <BannerBottom />
+          {/*<BannerBottom />*/}
         </div>
         {/* ============ Banner-Bottom End here ======= */}
         {/* ============ Post Part Start here ========= */}
@@ -66,7 +66,7 @@ export default function Home({ posts }: Props) {
         </div>
         {/* ============ Post Part End here =========== */}
         {/* ============ Footer Start here============= */}
-        <Footer />
+        {/*<Footer />*/}
         {/* ============ Footer End here ============== */}
       </main>
     </div>

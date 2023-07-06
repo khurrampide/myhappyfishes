@@ -29,7 +29,7 @@ export default function Home({ posts }: Props) {
         {/* ============ Banner Start here ============ */}
         {/*<Banner />*/}
         {/* ============ Banner End here ============== */}
-        <div className="max-w-7xl mx-auto h-60 relative">
+        <div className="max-w-7xl mx-auto h-4 relative">
           {/*<BannerBottom />*/}
         </div>
         {/* ============ Banner-Bottom End here ======= */}

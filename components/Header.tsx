@@ -8,7 +8,7 @@ const Header = () => {
       <div className="max-w-7xl h-full mx-auto flex justify-between items-center">
         <Link href="/">
           <div>
-            <Image width={80} height={80} src={logoDark} alt="logoDark" />
+            {/* <Image width={80} height={80} src={logoDark} alt="logoDark" /> */}
           </div>
         </Link>
         <div>
@@ -22,17 +22,17 @@ const Header = () => {
         </div>
         <div className="flex items-center gap-8 text-lg">
           <div className="flex items-center gap-1">
-            <img
+            {/*<img
               className="w-8 h-8 rounded-full"
               src="https://www.noormohammad.live/static/media/roundedProfile.477a194221d255c8ce26.png"
               alt="logo"
             />
-            <p className="text-sm font-medium">Hello Stranger!</p>
+            <p className="text-sm font-medium">Hello Stranger!</p>*/}
           </div>
 
-          <button className="uppercase text-sm border-[1px] border-primaryColor hover:border-secondaryColor px-4 py-1 font-semibold hover:text-white rounded-md hover:bg-secondaryColor transition-all duration-300 active:bg-yellow-600">
+          {/*<button className="uppercase text-sm border-[1px] border-primaryColor hover:border-secondaryColor px-4 py-1 font-semibold hover:text-white rounded-md hover:bg-secondaryColor transition-all duration-300 active:bg-yellow-600">
             Sign In
-          </button>
+          </button>*/}
         </div>
       </div>
     </div>

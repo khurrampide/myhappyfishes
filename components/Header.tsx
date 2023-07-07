@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logoDark from "../public/images/logoDark.png";
+// import logoDark from "../public/images/logoDark.png";
 
 const Header = () => {
   return (
@@ -14,10 +14,10 @@ const Header = () => {
         <div>
           <ul className="hidden lg:inline-flex gap-8 uppercase text-sm font-semibold">
             <Link href="/"><li className="headerLi">Home</li></Link>
-            <li className="headerLi">Posts</li>
+            {/*<li className="headerLi">Posts</li>
             <li className="headerLi">Pages</li>
             <li className="headerLi">Features</li>
-            {/*<li className="headerLi">Contact</li>*/}
+            <li className="headerLi">Contact</li>*/}
           </ul>
         </div>
         <div className="flex items-center gap-8 text-lg">

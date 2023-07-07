@@ -17,7 +17,7 @@ const Header = () => {
             <li className="headerLi">Posts</li>
             <li className="headerLi">Pages</li>
             <li className="headerLi">Features</li>
-            <li className="headerLi">Contact</li>
+            {/*<li className="headerLi">Contact</li>*/}
           </ul>
         </div>
         <div className="flex items-center gap-8 text-lg">

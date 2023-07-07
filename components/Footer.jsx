@@ -13,11 +13,10 @@ const Footer = () => {
   return (
     <div className="w-full py-10 bg-bgColor text-white/80 px-4">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-4 justify-center items-center md:justify-between">
-        <div className="flex items-center gap-3">
-          <Image src={logoLight} width={80} height={80} alt="logo" />
+        <div className="flex items-center gap-3">          
           <p className="flex items-center text-sm font-titleFont gap-1">
             <AiOutlineCopyrightCircle className="mt-[1px]" />
-            reactBD || all rights reserved
+            myHappyFishes.com || all rights reserved
           </p>
         </div>
 

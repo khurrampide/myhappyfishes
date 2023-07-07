@@ -49,7 +49,13 @@ const Post = ({ post }: Props) => {
                     ),
                     link:({href, children}:any) => (
                         <a href={href} className="text-blue-700 hover:underline">{children}</a>
-                    )
+                    ),
+                    li: ({ children }: any) => (
+                        <li className="ml-4 list-disc? list-decimal">
+                          {" "}
+                          {children}
+                        </li>
+                      ),
                 }}
             />
 

@@ -18,7 +18,7 @@ export default function Home({ posts }: Props) {
   return (
     <div>
       <Head>
-        <title>My Blog | Explore the new horizon</title>
+        <title>MyHappyFishes | Goldfish</title>
         <link rel="icon" href="/smallLogo.ico" />
       </Head>
 
@@ -54,7 +54,7 @@ export default function Home({ posts }: Props) {
                       {/* <Image className="w-12 h-12 rounded-full object-cover" width={48} height={48} src={urlFor(post.author.image).url()} alt="Image" /> */}
                     </div>
                     <p className="py-2 px-4 text-base">
-                       {post.description.substring(0,60)}{/*... by   */}
+                       {post.description.substring(0,110)} ...{/*... by   */}
                       {/* <span className="font-semibold"> {post.author.name}</span> */}
                     </p>
 

@@ -45,7 +45,7 @@ const Post = ({ post }: Props) => {
                         <h1 className="text-2xl font-bold my-5 font-titleFont" {...props} />
                     ),
                     h3: (props:any) => (
-                        <h1 className="text-xl font-bold my-5 font-titleFont" {...props} />
+                        <h1 className="text-lg font-bold my-5 font-titleFont" {...props} />
                     ),
                     h4: (props:any) => (
                         <h1 className="text-lg font-bold my-5 font-titleFont" {...props} />
